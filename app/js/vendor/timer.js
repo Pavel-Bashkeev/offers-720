@@ -26,7 +26,7 @@ var Countdown = {
     };
     
     // Initialize total seconds
-    this.total_seconds = this.values.hours * 60 * 60 + (this.values.minutes * 60) + this.values.seconds;
+    this.total_seconds = (this.values.hours * 60 * 60 + this.values.minutes * 60 + this.values.seconds)/10;
 
     // Animate countdown to the end 
     this.count();    
@@ -75,7 +75,10 @@ var Countdown = {
         else {
             clearInterval(that.countdown_interval);
         }
-    }, 1000);    
+    }, 1000);  
+    if(that.total_seconds <= 0){
+        clearInterval(that.countdown_interval);
+    }   
   },
   
   animateFigure: function($el, value) {
@@ -168,7 +171,7 @@ var CountdownSecond = {
     };
     
     // Initialize total seconds
-    this.total_seconds = this.values.hours * 60 * 60 + (this.values.minutes * 60) + this.values.seconds;
+    this.total_seconds = (this.values.hours * 60 * 60 + this.values.minutes * 60 + this.values.seconds)/10;
 
     // Animate countdown to the end 
     this.count();    
@@ -213,11 +216,15 @@ var CountdownSecond = {
             that.checkHour(that.values.seconds, $sec_1, $sec_2);
 
             --that.total_seconds;
+            
         }
         else {
             clearInterval(that.countdown_interval);
         }
-    }, 1000);    
+    }, 1000);   
+    if(that.total_seconds <= 0){
+        clearInterval(that.countdown_interval);
+    } 
   },
   
   animateFigure: function($el, value) {
