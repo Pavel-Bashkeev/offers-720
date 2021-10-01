@@ -26,7 +26,8 @@
   }
 
   .slide__box-img {
-    height: 140px;
+    min-height: auto;
+    width: 150px;
   }
 }
 
@@ -42,8 +43,7 @@
 
   .slide__box-img {
     min-height: auto;
-    max-height: 140px;
-
+    width: 150px;
 
     &:not(:last-child) {
       margin-bottom: 10px;
@@ -90,6 +90,17 @@
   .hero-choose__prices {
     background-color: #78ac43;
     padding: 18px 12px 10px 42px;
+  }
+
+  .slide__box-img {
+    min-height: auto;
+    width: 167px;
+
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+      margin-right: 0;
+    }
   }
 }
 
