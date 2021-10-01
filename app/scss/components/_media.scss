@@ -41,7 +41,9 @@
   }
 
   .slide__box-img {
-    height: 167px;
+    min-height: auto;
+    max-height: 140px;
+
 
     &:not(:last-child) {
       margin-bottom: 10px;
@@ -102,27 +104,33 @@
 @media (max-width: 320px) {
   .desing-items__item .desing-items__item-box {
     max-width: 150px;
-}
+  }
+
   .benefits-items__item:nth-child(even) .benefits-items__item-text {
     max-width: 174px;
-}
-.benefits-items__item:nth-child(odd) .benefits-items__item-text {
-  margin-right: -178px;
-}
-.hero-choose__discount {
-  padding: 6px 5px 6px 24px;
-  max-width: 173px;
-  font-size: 20px;
-}
-.hero-choose__price-text {
-  font: 700 16px/22px Roboto;
-}
-.hero-choose__price-count--current {
-  font: 700 60px/82px Roboto;
-}
-.hero-choose__price-count--old {
-  font: 400 35px/46px Roboto;
-}
+  }
+
+  .benefits-items__item:nth-child(odd) .benefits-items__item-text {
+    margin-right: -178px;
+  }
+
+  .hero-choose__discount {
+    padding: 6px 5px 6px 24px;
+    max-width: 173px;
+    font-size: 20px;
+  }
+
+  .hero-choose__price-text {
+    font: 700 16px/22px Roboto;
+  }
+
+  .hero-choose__price-count--current {
+    font: 700 60px/82px Roboto;
+  }
+
+  .hero-choose__price-count--old {
+    font: 400 35px/46px Roboto;
+  }
 
 
 }
