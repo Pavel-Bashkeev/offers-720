@@ -44,7 +44,7 @@
     justify-content: flex-start;
     width: fit-content;
     &-img{
-      height: 167px;
+      min-height: 167px;
       
       &:not(:last-child){
         margin-right: 10px;
