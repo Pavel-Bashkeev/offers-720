@@ -1,0 +1,128 @@
+@media (max-width: 420px) {
+  .hero {
+    background-size: 100% 33%;
+  }
+
+  .hero-choose__discount {
+    margin-right: 5px;
+  }
+
+  .hero-action {
+    padding-bottom: 30px;
+    background-size: 100% 100%;
+
+  }
+
+  .hero-items__item {
+    padding: 0 5px;
+  }
+
+  .benefits-items__item:nth-child(odd) .benefits-items__item-text {
+    margin-right: -127px;
+  }
+
+  .benefits-items__item:nth-child(even) .benefits-items__item-text {
+    margin-left: -92px;
+  }
+
+  .slide__box-img {
+    height: 140px;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero-choose__discount {
+    padding: 6px 5px 6px 24px;
+    max-width: 230px;
+  }
+
+  .slide__box {
+    flex-direction: column;
+  }
+
+  .slide__box-img {
+    height: 167px;
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+      margin-right: 0;
+    }
+  }
+
+  .desing-items__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .benefits-items__item:nth-child(odd) .benefits-items__item-text {
+    width: 240px;
+  }
+
+  .benefits-items__item:nth-child(even) .benefits-items__item-text {
+    margin-left: -115px;
+  }
+}
+
+@media (max-width: 375px) {
+  .benefits-items__item:nth-child(odd) .benefits-items__item-text {
+    width: 225px;
+  }
+
+  .benefits-items__item-text {
+    font: 400 18px/20px Roboto;
+  }
+
+  .benefits-items__item:nth-child(even) .benefits-items__item-text {
+    max-width: 215px;
+  }
+
+  .benefits-items__item:nth-child(odd) .benefits-items__item-text {
+    margin-right: -139px;
+  }
+
+  .hero__text--accent {
+
+    padding: 20px 37px 26px 25px;
+
+  }
+
+  .hero-choose__prices {
+    background-color: #78ac43;
+    padding: 18px 12px 10px 42px;
+  }
+}
+
+@media (max-width: 360px) {
+  .hero-choose__discount {
+    padding: 6px 5px 6px 24px;
+    max-width: 200px;
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 320px) {
+  .desing-items__item .desing-items__item-box {
+    max-width: 150px;
+}
+  .benefits-items__item:nth-child(even) .benefits-items__item-text {
+    max-width: 174px;
+}
+.benefits-items__item:nth-child(odd) .benefits-items__item-text {
+  margin-right: -178px;
+}
+.hero-choose__discount {
+  padding: 6px 5px 6px 24px;
+  max-width: 173px;
+  font-size: 20px;
+}
+.hero-choose__price-text {
+  font: 700 16px/22px Roboto;
+}
+.hero-choose__price-count--current {
+  font: 700 60px/82px Roboto;
+}
+.hero-choose__price-count--old {
+  font: 400 35px/46px Roboto;
+}
+
+
+}

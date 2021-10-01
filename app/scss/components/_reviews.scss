@@ -19,6 +19,7 @@
       height: 135px;
       border-radius: 50%;
       margin-right: 17px;
+      flex-shrink: 0;
     }
     &__info{
       &-text{
