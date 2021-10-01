@@ -1,0 +1,5 @@
+.hero-before-footer.hero {
+  &::before {
+    background: linear-gradient(180deg, #2C2727 0%, rgba(0, 0, 0, 0) 100%);
+  }
+}

@@ -1,0 +1,38 @@
+.order-steps{
+  padding:65px 0 54px ;
+  background-color: #1c1818;
+  &__title{
+    font: 700 35px/41px $font;
+    color: $white;
+  }
+  &__logo{
+    margin-bottom: 55px;
+  }
+  &__items{
+    padding: 0px 30px;
+  }
+  &__top{
+    margin-bottom: 5px;
+  }
+  &__box{
+    margin-right: 16px;
+    width: 41px;
+    height: 41px;
+  }
+  &__item{
+    &:not(:last-child){
+      margin-bottom: 25px;
+    }
+  }
+  &__item-title{
+    color: #78AC43;
+    font: 900 40px / 45px $font;
+    letter-spacing: 0.96px;
+  }
+  &__text{
+   max-width: 340px; 
+   font: 400 20px/24px $font;
+   letter-spacing: 0.96px;
+   color: $white;
+  }
+}
