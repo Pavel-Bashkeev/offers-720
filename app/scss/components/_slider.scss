@@ -1,0 +1,25 @@
+.slider{
+  padding-bottom: 35px;
+  margin-bottom: 30px;
+}
+
+.slide-pagination{
+  left:50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  position: absolute;
+  .swiper-pagination-bullet{
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    opacity: 1;
+    &:not(:last-child){
+      margin-right: 8px;
+    }
+  }
+  .swiper-pagination-bullet-active{
+    background-color: #78AC43;
+  }
+  
+}
+

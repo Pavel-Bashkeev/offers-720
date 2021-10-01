@@ -1,0 +1,33 @@
+.specifications{
+  padding: 65px 0 55px;
+  background-color: #2C2727;
+  &__title{
+    max-width: 360px;
+    padding: 0 5px;
+    font: 700 35px/41px $font;
+    margin-bottom: 40px;
+    color: $white;
+  }
+  &__descr{
+    padding-left: 20px;
+    &-title{
+      color: $white;
+      font: 700 30px / 35px $font;
+      margin-bottom: 35px;
+    }
+    &-item{
+      &:not(:last-child){
+        margin-bottom: 5px;
+      }
+    }
+    &-text{
+      font: 400 20px / 23px $font;
+      color: $white;
+      &--accent{
+        font: 700 20px / 23px $font;
+        margin-right: 5px;
+        color: $white;
+      }
+    }
+  }
+}

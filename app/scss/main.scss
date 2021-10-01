@@ -1,0 +1,19 @@
+@import '../../node_modules/reset-css/sass/reset';
+@import './settings/classFrame';
+@import './settings/vars';
+@import './vendor/mixins';
+@import './settings/fonts';
+@import './settings/global';
+
+@import './components/timer';
+
+@import './components/hero';
+@import './components/benefits';
+@import './components/description';
+@import './components/desing';
+@import './components/specifications';
+@import './components/slider';
+@import './components/reviews';
+@import './components/footer';
+
+
